@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Mailform Page </title>
+<link rel="stylesheet" type="text/css" media="screen" href="myStyle.css" />
+</head>
+
+<body class="mailbox">
+
+	<div class="main">
+  		<div class="head">
+			My Mailform Page
+  		</div>
+
+		<div class="content">
+			<form method="post" action="/cgi-bin/mailform">
+
+			<p>
+    		<input type="hidden" name="mform-email" value="jyu332@gatech.edu" />
+    		<input type="hidden" name="mform-subject" value="Test Data" />
+    		<input type="hidden" name="mform-response"
+      		value="http://www.prism.gatech.edu/~jyu332/index.html" />
+    		<input type="hidden" name="mform-encoding" value="text" />
+    		Name (please include!): <input name="name" />
+    		Class:
+    		<select name="class">
+      		<option>Not selected</option>
+      		<option>Fresh.</option>
+      		<option>Soph.</option>
+      		<option>Junior</option>
+      		<option>Senior</option>
+    		</select>
+			What did you want to be when you grew up?: <input type="text" dream="dream" />
+			<br>
+			<input type="checkbox" name="cool things" value="robot" /> Check if you like my page (of course you do!)<br />
+			<input type="checkbox" name="cool things" value="" /> Check if you want to talk more about my Grand Challenge projects with me!
+			<br>
+			Comments:<br>
+			<textarea name="comments" rows="6" cols="60"></textarea><br />
+			<input type="radio" name="drink" value="Coke" /> Coke<br />
+			<input type="radio" name="drink" value="Pepsi" /> Pepsi</br>
+     		<input type="submit" value="Submit" /> or
+			<input type="reset" value="Reset" /> </ br> </ br>
+			</p>
+			</form>
+  		</div>
+	</div>
+
+<div class="content">
+	<h3>Hope to hear from you!</h3>
+</div>
+
+</body>
+</html>

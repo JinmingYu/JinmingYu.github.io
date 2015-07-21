@@ -1,0 +1,415 @@
+[class*="entypo-"]:before {
+    font-family:'entypo', sans-serif;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.recipe {
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.1);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+body {
+    background-color: #f2f2f2;
+}
+.click-desc {
+    text-align:center;
+    margin-top: 40px !important;
+}
+.header {
+    width: 100%;
+    height: 300px;
+    background: url(../img/bg.jpg) repeat fixed;
+    background-position: 0% -140px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.header .me-placeholder {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    border-radius: 120px;
+    border: 2px solid #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    top: 230px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    z-index: 101;
+}
+.header .me {
+    width: 140px;
+    top: -35px;
+    left: -2px;
+    position: relative;
+    border-radius: 120px;
+    z-index: 100;
+    border: 2px solid #f2f2f2;
+}
+.header a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+.header a:hover {
+    color: rgba(242, 242, 242, 0.2);
+}
+.header h1 {
+    color: #f2f2f2;
+    font-size: 60px;
+    line-height: 1;
+    position: relative;
+    top: -130px;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header h2 {
+    color: #f2f2f2;
+    font-size: 18px;
+    position: relative;
+    top: -130px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.projects-container {
+    background-color: #f2f2f2;
+    min-height: 430px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.words-of-truth {
+    width: 100%;
+    padding-top: 50px;
+    font-size: 16px;
+    padding-bottom: 50px;
+    background-color: #F2E7C4;
+    font-family:'Raleway', sans-serif;
+    font-weight: 200;
+    border-bottom: 2px solid #999;
+    line-height: 24px;
+}
+.words-of-truth p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.bio-info-section {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+    font-family:'Raleway', serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+.bio-info-section .bio-bit {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.bio-info-section .bio-bit .icon-decoration {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+    background-color: #6333a6;
+    float: left;
+}
+.bio-info-section .bio-bit .icon-decoration span {
+    position: relative;
+    color: #f2f2f2;
+    top: 3px;
+    left: 7px;
+}
+.bio-info-section .bio-bit p {
+    position: relative;
+    top: 4px;
+}
+.share-icons {
+    display: block;
+    text-align: center;
+    float: none;
+    margin: -170px auto 0;
+    padding: 0;
+    width: 200px;
+    height: 30px;
+    font-size: 30px;
+}
+.share-icons span img {
+    float: left;
+}
+.quarter-width {
+    width: 25%;
+}
+.half-width {
+    width: 50%;
+}
+.full-width {
+    width: 100%;
+}
+.projects {
+    font-size: 14px;
+    float: left;
+    min-height: 158px;
+}
+
+.projects .full-height {
+    height: 97%;
+    width: auto;
+}
+
+.resume-link {
+    text-decoration: none;
+    color: #6333a6;
+    font-weight: bold;
+}
+.projects-container:hover > div:hover {
+    cursor: pointer;
+}
+.projects p {
+    font-family:'Merriweather', serif;
+    display: none;
+    height: 270px;
+    max-width: 50%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    left: 45%;
+    top: -40%;
+}
+.projects .image-block {
+    height: 100px;
+    width: 140px;
+}
+.projects img {
+    max-width: 140px;
+    max-height: 140px;
+    float: left;
+    display: block;
+}
+.projects h4 {
+    position: relative;
+    width: 170px;
+    margin-left: 20px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500;
+}
+.projects h5 {
+    position: relative;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 200;
+}
+.prezi img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 140px;
+}
+.hive img {
+    margin-top: 10px;
+    height: 80px;
+    margin-left: 30px;
+}
+.boa img {
+    margin-top: 35px;
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+.huntbnb img {
+    width: 80px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.ted img {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.aggie img {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.cp img {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.bynd img {
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 80px;
+}
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    border-radius: 40px;
+    z-index: 9999;
+}
+.logo-image {
+    height: 40px;
+    background-color: rgba(242, 242, 242, 0.4);
+    border-radius: 40px;
+    padding: 5px;
+}
+#intro h1 {
+    font-size: 40px;
+}
+.circle {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+.twitter {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.contact {
+    width: 100%;
+    background-color: #F2E7C4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    font-weight: 400;
+    line-height: 22px;
+    border-top: 2px solid #999;
+}
+.contact div {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.contact div .sharing-footer a {
+    color: #6333a6;
+    font-size: 30px;
+    text-decoration: none;
+}
+.contact div a:hover {
+    color: #b394de;
+}
+.contact .sharing-footer {
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+@media (max-width: 900px) {
+    .quarter-width {
+        width: 100% !important;
+    }
+    .half-width {
+        width: 100% !important;
+    }
+    .full-width {
+        width: 100% !important;
+    }
+    .logo {
+        display: none;
+    }
+    .header h1 {
+      margin-top: 50px;
+    }
+    .header .me-placeholder {
+        width: 100px;
+        height: 100px;
+        top: 250px;
+    }
+    .recipe {
+      margin-left: 5%
+    }
+    .header {
+        background: url(../img/bg.jpg) repeat fixed;
+    }
+    .header .me {
+        width: 140px;
+        left: -10px;
+    }
+    div.bio-bit:nth-child(5) p, div.bio-bit:nth-child(6) p {
+        margin-left: 35px;
+    }
+    .bio-bit {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .bio-bit p {
+        font-size: 12px;
+    }
+    .words-of-truth {
+        width: 100%;
+        line-height: 20px;
+    }
+    .words-of-truth p {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 12px;
+    }
+    .projects-container {
+        text-align: center;
+        height: auto;
+        clear: both;
+        float: none;
+    }
+    .projects-container .projects {
+        text-align: center;
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+    .projects-container .projects p {
+        margin: 10px auto 0 auto;
+        top: 0;
+        left: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+        max-height: 50%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .projects-container .projects .image-block {
+        margin: 0 auto;
+    }
+    .projects-container .contact {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .projects-container .projects h4 {
+        margin: 0 auto;
+    }
+    .projects-container .projects h5 {
+        margin: 0 auto;
+    }
+    .huntbnb img {
+        width: 80px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}

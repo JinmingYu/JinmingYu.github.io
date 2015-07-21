@@ -1,1 +1,235 @@
-blablab
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <!--Question:
+1. cannot change the background of the mailbox
+2. cannot do the click effect
+3. should the last script be in the html?
+<div class="photo">
+  <img ; src="mypic.jpg" alt="A random picture of me." title="Listening intently"
+  width="10%" height="10%" />
+</div>
+/*-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <script>
+            alert("Hi there! : ) ")
+        </script>
+    <title> Jinming Yu </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="myStyle.css" />
+
+    </head>
+<body class="mainpage">
+
+<div class="main">
+
+  <div class="head">
+    JINMING YU
+  </div>
+
+  <div class="subhead">
+    Georgia Tech &#8210; Computer Science '18
+  </div>
+  <div class="photo">
+    <img ; src="mypic.jpg" alt="A random picture of me." title="Listening intently"
+    width="70%" height="70%" />
+  </div>
+  <div class="content">
+
+  <script type="text/javascript" src="/js/tp/tp.js"></script>
+
+  <link rel="stylesheet" href="/js/tp/tp.css" />
+
+  <body onload="tpSet('control', 'tabs', 'tp1', 'tp2', 'tp3', 'tp4', 'tp5', 'tp6');">
+  <div id="control">
+
+  <div id="tp1" title="About Me" class="active">
+
+      I am a programmer with a pursuit of beauty.
+      I am a digita painter and codes are my pigments.
+      <br>I pay more attention to what <b>idea</b> my codes convey, and what <b>value</b> my codes creat.
+      <br>I love my family, <i>web design, mobile app development,</i> jogging, swimming,
+      <a href=http://www.girlsgenerationusa.com/>Girls' Genration </a> - basically anything beautiful.
+      <br>Compared to classroom learning, I prefer learning at the same time as applying.<br>
+      Just like the web development,
+      I want to see what I can creat with HTML, CSS, JavaScript immediately after I learned them.
+  </div>
+
+  <div id="tp2" title="I Believe In">
+
+      <p>
+        <b>PASSION</b> - My heart is leading the way, instead of my brain.
+        I code because I love solving problems in the most simplified way.
+      </p>
+      <p>
+        <b>COOPERATION</b> -
+          Inspirations from people in various fields give my codes life and value,
+          so I am always willing to work with people.
+      </p>
+      <p>
+        <b>PERSEVERVANCE</b> -
+          No matter working out or studying programming language everyday,
+          I never doubt that little accumulates to huge impact.
+      </p>
+  </div>
+
+  </div>
+
+  <div id="tp3" title="Coursework">
+
+      <table>
+        <tr>
+          <td>Fall 2014</td> <td>CS 1371</td> <td> Calculus II </td>
+          <td> Grand Challenge </td> <td> English 1101 </td>
+          <td> Korean 1001 </td> <td> History 2112 </td>
+        </tr>
+        <tr>
+          <td>Spring 2015</td> <td> APPH 1040 </td>
+          <td> CS 1331 (Java) </td> <td> Korean 1002 </td>
+          <td> CS 2050 </td> <td> English 1102 </td> <td>Grand Challenge</td>
+        </tr>
+      </table>
+  </div>
+
+  <div id='tp4' title="Grand Challenge Program">
+      I am so proud of being part of
+      <a href = "http://grandchallenges.gatech.edu/"> Grand Challenge Program</a> !
+      <a href = "http://grandchallenges.gatech.edu/">
+          <img src="We are the BEST TEAM ever!!!.jpg" alt="A quick funny comic"
+          title = "WE ARE TEAM 7" width = "25%" height = "25%" /> </a>
+      </p>
+      <p>
+      The grand challenge my last team worked on was
+      "How to improve personalized education in large research universities like Georgia Tech?".
+      The solution we came up with were a website and
+      cell phone app which have all the qualitative data about all the professors.
+      </p>
+      <p>
+      The one I am working on with my new team deals with construction wastes,
+      which consist over 1/3 wastes in the world. My team now is
+      developing a mobile app which will allow consumers and companies
+      to reach an agreement of recycling.
+      Both of them will gain tax rebate from the government
+      based on the amount of the recycled material.
+      </p>
+  </div>
+  <div id='tp5' title="Contact Info">
+      <p>
+              Interested in get in touch with me? Welcome!
+      </p>
+
+      <p>
+           <a href="mailto:jyu332@gatech.edu"> <img src="eMailLogo.png"
+               alt="Email Me!" title = "Email Me!" width = "6%" height = "9%" /> </a>
+
+           <a target="_blank" title="Message me on facebook"
+           href="https://www.facebook.com/people/Jinming-Yu/100004909624343">
+           <img alt="Message me on facebook" src="http://img.create.net/assets/facebook40x40.png" border=0></a>
+      <br>To use my mailform page
+      <a href="http://www.prism.gatech.edu/~jyu332/mailbox.html"> click here</a>.
+         <br>
+      </p>
+  </div>
+  <div id='tp6' title="Resume">
+      <p>Get my resume <a href="Jinming Yu-Resume.pdf">Here</a>!</p>
+  </div>
+
+</body>
+<script>
+$(document).ready(function() {
+    $('#tp1').click(function() {
+        $(this).css("div.content-color", "red")
+    })
+})
+$(document).ready(function() {
+    $('#tp2').click(function() {
+        $(this).css("div.content-color", "red")
+    })
+})
+$(document).ready(function() {
+    $('#tp3').click(function() {
+        $(this).css("div.content-color", "red")
+    })
+})
+$(document).ready(function() {
+    $('#tp4').click(function() {
+        $(this).css("div.content-color", "red")
+    })
+})
+$(document).ready(function() {
+    $('#tp5').click(function() {
+        $(this).css("div.content-color", "red")
+    })
+})
+</script>
+</body>
+</html>
+
+
+  <Script>
+  var tp = [];
+
+  var tpl = [];
+
+
+  function tpSet(i, c) {
+
+  if (document.createElement) {
+
+      var e = document.getElementById(i);
+
+      var l = document.createElement('ul');
+
+      var p = document.createElement('div');
+
+      e.className = l.className = p.className = c;
+
+
+      var a, j;
+
+      for (j = 2; j < arguments.length; j++) {
+
+          c = document.getElementById(arguments[j]);
+
+          tp[arguments[j]] = c.parentNode.removeChild(c);
+
+
+          a = l.appendChild(document.createElement('li'));
+
+          a.className = c.className;
+
+              tpl[arguments[j]] = a = a.appendChild(document.createElement('a'));
+
+          a.setAttribute('href', 'javascript:tpShow(\''+i+'\', \''+arguments[j]+'\');');
+
+          a.appendChild(document.createTextNode(c.getAttribute('title')));
+
+      }
+
+
+      p.appendChild(tp[arguments[2]]);
+
+      tpl[arguments[2]].className = 'active';
+
+
+      while (e.firstChild) e.removeChild(e.firstChild);
+
+      e.appendChild(l);
+
+      e.appendChild(p);
+
+  }}
+
+
+
+  function tpShow(e, p) {
+
+      e = document.getElementById(e).lastChild;
+
+      tpl[e.replaceChild(tp[p], e.firstChild).getAttribute('id')].className = null;
+
+      tpl[p].className = 'active';
+
+  }
+  </Script>

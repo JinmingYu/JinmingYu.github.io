@@ -1,0 +1,87 @@
+body.mainpage {
+    background-image:url("flowerAndBirds.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+body.mailbox {
+    background-image:url("mailboxbackground.jpg");
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+div.main {
+    width: 60%;
+    height:100%;
+    position:relative;
+    left: 20%;
+}
+
+div.head {
+    height:70px;
+    font-size: 48px;
+    text-align: center;
+    color: #FACC2E;
+    font-weight: bold;
+}
+
+div.subhead {
+    height:30px;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+div.active {
+    color：#FF0000
+}
+div.content {
+    font-size: 20px;
+    COLOR: #7401DF;
+}
+table {
+    border: 3px ridge #1234DD;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a:link {
+    COLOR: #008000;
+}
+a:visited {
+    COLOR: #0000FF;
+}
+a:hover {
+    COLOR: #DAA520;
+}
+a:active {
+    COLOR: #008000;
+}
+
+h1 {
+    font-style: italic;
+    text-align:center;
+}
+
+h2 {
+    font-style: italic;
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+    color: black;
+}
+div.photo {
+    text-align:center;
+}
+
+div#footer{
+    text-align:center;
+    border: 0px solid #999900;
+    border-width: 1px 0px 2px 0px;
+    font-size:70%;
+}
