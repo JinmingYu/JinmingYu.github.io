@@ -1,10 +1,10 @@
 body.mainpage {
-    background-image:url("flowerAndBirds.jpg");
+    background-image:url("../assets/flowerAndBirds.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 body.mailbox {
-    background-image:url("mailboxbackground.jpg");
+    background-image:url("../assets/mailboxbackground.jpg");
     background-size: 100% 150%;
     background-repeat: no-repeat;
 }
